@@ -1,50 +1,37 @@
-# CS2535 Water Analysis System
+# Machine-Learning-Force-Fields-for-Microchips
 
-Matrix-themed water quality report presentation for CS2535 Environmental Science. Built with Next.js, shadcn/ui, and Tailwind CSS.
+**CS2535 ORNL #3.** Using ML to understand materials inside microchips. The tool we use is **MACE** — Machine Learning Force Fields.
 
-## Features
+MACE is machine learning software for predicting many-body atomic interactions and generating force fields. It uses higher-order equivariant message passing for fast and accurate predictions.
 
-- **Futuristic Matrix Design**: Green & black theme with scan-line effects and glowing typography
-- **Introduction Page**: Project overview and navigation to report
-- **Water Results Report**: Structured data view + full HTML report (iframe)
-- **Vercel Ready**: Deploy with one click
+---
 
-## Adding Your Report
+## MACE Force Fields Site (Team 3)
 
-1. **HTML Report**: Copy your `water_results_report.html` to `public/water_results_report.html`
-2. **Structured Data**: Edit `data/water_report.ts` with your lab parameters
+Matrix-themed project site with Liquid Water training results. Built with Next.js, shadcn/ui, and Tailwind CSS.
 
-## Getting Started
+### Features
 
-First, run the development server:
+- **Project overview**: MACE/Team 3 intro (Arya Baviskar, Isaac Sohn, Harshitha Somasundaram, Kartik Patri, Zicheng Zhao)
+- **Liquid Water report**: Training curves, validation metrics, 3D visualizations at `/report`
+- **Vercel ready**: Deploy with one click
+
+### Getting Started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000). Click **VIEW LIQUID WATER REPORT** for results.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Deploy on Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+[Deploy with Vercel](https://vercel.com/new) — connect this repo and deploy.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Resources
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [MACE documentation](https://mace-docs.readthedocs.io/en/latest/index.html)
+- [Quick Start / BOTNet-datasets](Quick%20Start/BOTNet-datasets) (in this repo)
